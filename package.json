@@ -1,0 +1,21 @@
+{
+  "name": "qamyprojekt",
+  "version": "1.0.0",
+  "description": "test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure": "0.0.0",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.1"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.4"
+  }
+}
